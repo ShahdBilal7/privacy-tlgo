@@ -10,9 +10,14 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 ### Information Collection and Use  
 For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to users' names, email addresses, gender, location, and pictures. The information that we request will be retained by us and used as described in this privacy policy.
 The app does use third-party services that may collect information used to identify you.
+
+### Features:
+* Password reset via SMS
+* Send and receive instructions to the elevator via SMS
+* Easily add members using contacts
+
 ### Permissions Requested and Their Use
 Our app requests certain permissions to provide core functionalities, including but not limited to:
-
 # SMS Permissions
 * SEND_SMS: This permission is required to send instructions to the elevator and to reset passwords via SMS.
 * RECEIVE_SMS: This permission allows the app to receive SMS messages for verification and communication with the elevator.
