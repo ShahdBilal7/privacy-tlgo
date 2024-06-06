@@ -16,10 +16,15 @@ The app does use third-party services that may collect information used to ident
 * Send and receive instructions to the elevator via SMS: For controlling and managing the elevator system.
 * Easily add members using contacts: To facilitate the addition of members to the app and communicate with the elevator.
 
+
 ### Permissions Requested and Their Use
 Our app requests certain permissions to provide core functionalities, including but not limited to:
 # SMS Permissions
 * SEND_SMS: This permission is required to send instructions to the elevator and to reset passwords via SMS.
+ - When adding a new device, an SMS is sent to the device number to allow the device to be added.
+ - To control the elevator device, such as sending an SMS to keep the door always open.
+ - When adding a user or admin, an SMS is sent for communication.
+ - When deleting a user or admin, an SMS is sent for  communication.
 * RECEIVE_SMS: This permission allows the app to receive SMS messages for verification and communication with the elevator.
 * READ_SMS: This permission enables the app to read incoming SMS messages to auto-detect and process instructions sent to the elevator.
 
