@@ -3,32 +3,37 @@ Privacy Policy
 
 ### Introduction  
 Our privacy policy will help you understand what information we collect at Technolab/TLGO, how Technolab/TLGO uses it, and what choices you have.
-Technolab/TLGO built the TLGO app as a free app. This SERVICE is provided by Technolab/TLGO at no cost and is intended for use as is.
+TLGO was developed as a service provided by Technolab Company that enables elevator control via mobile phones.
 If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible on our website, unless otherwise defined in this Privacy Policy.\
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible on our website, unless otherwise defined in this Privacy Policy.
 
 ### Information Collection and Use  
-For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to users' names, email addresses, gender, location, and pictures. The information that we request will be retained by us and used as described in this privacy policy.
+For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to users' names, email addresses, and phone numbers. The information that we request will be retained by us and used as described in this Privacy Policy.
 The app does use third-party services that may collect information used to identify you.
 
 ### Features:
 * Password reset via SMS: To help users reset their passwords securely.
-* Send and receive instructions to the elevator via SMS: For controlling and managing the elevator system.
+* Send instructions to the elevator via SMS: For controlling and managing the elevator system.
 * Easily add members using contacts: To facilitate the addition of members to the app and communicate with the elevator.
 
 ### Permissions Requested and Their Use
 Our app requests certain permissions to provide core functionalities, including but not limited to
 # SMS Permissions
 SEND_SMS: This permission is required to send instructions to the elevator and to reset passwords via SMS. Examples include:
-Adding a new device.
-Controlling the elevator, such as keeping the door open.
-Adding users and admins.
-READ_CONTACTS: This permission helps users add members easily by selecting from their contacts and ensures seamless communication with the elevator system.
-Core Functionalities: Device automation, Connected device companion apps
+- SMS: SINQ# -> Check status : it will send msg to the selected device phone number  to get the device status 
+- SMS: ENFO# -> open always it will send msg to the selected device phone number to open the relay always   
+- SMS: NOFO# -> open just when connect it will send msg to the selected device phone number to close the relay always until calling from auth
+- SMS: RCT#xx# -> will send msg to the selected device phone number to set the relay close time after calling
+- SMS: ADD#xxxxxxxxxx# -> it will send msg to the selected  device phone  to add authorised phone numbers you can add 15 numbers in same sms msg\nlast number must to be ended with #
+- SMS: DEL#xxxxxxxxxx# -> it will send msg to the selected device phone number  to delete specified authorised phone number
+- SMS: ADD ADMIN#xxxxxxxxxx# -> it will send msg to the selected device phone  to Add admins by master admin only > up to 4 admins
+- SMS: DEL ADMIN#xxxxxxxxxx# -> it will send msg to the selected  device phone number to delete specified Admin phone number by master admin
 
 # Call Log Permissions
-* READ_CONTACTS: This permission is used to help users add members easily by selecting from their contacts and to communicate effectively with the elevator system.
-These permissions are crucial for providing a secure and integrated user experience.
+ READ_CONTACTS: This permission is used to help users add members easily by selecting from their contacts and to communicate effectively with the elevator system.
+ - Call the device: It will make call to the device phone you are selected
+
+we will request your permission before using the SMS functionality. If you reject the SMS permission, you will still be able to use some basic features of the TLGO app. However, functionalities that rely on SMS communication with the elevator, such as password reset, adding new devices, controlling the elevator door, and adding users and admins, will be unavailable.
 
 ### Cookies  
 Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your devices’s internal memory.  
