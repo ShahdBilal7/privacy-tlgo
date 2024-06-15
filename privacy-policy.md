@@ -15,25 +15,27 @@ The app does use third-party services that may collect information used to ident
 * Password reset via SMS: To help users reset their passwords securely.
 * Send instructions to the elevator via SMS: For controlling and managing the elevator system.
 * Easily add members using contacts: To facilitate the addition of members to the app and communicate with the elevator.
-
+* 
 ### Permissions Requested and Their Use
-Our app requests certain permissions to provide core functionalities, including but not limited to
-# SMS Permissions
+Our app requests certain permissions to provide core functionalities, including but not limited to:
+
+* SMS Permissions
 SEND_SMS: This permission is required to send instructions to the elevator and to reset passwords via SMS. Examples include:
-- SMS: SINQ# -> Check status : it will send msg to the selected device phone number  to get the device status 
-- SMS: ENFO# -> open always it will send msg to the selected device phone number to open the relay always   
-- SMS: NOFO# -> open just when connect it will send msg to the selected device phone number to close the relay always until calling from auth
-- SMS: RCT#xx# -> will send msg to the selected device phone number to set the relay close time after calling
-- SMS: ADD#xxxxxxxxxx# -> it will send msg to the selected  device phone  to add authorised phone numbers you can add 15 numbers in same sms msg\nlast number must to be ended with #
-- SMS: DEL#xxxxxxxxxx# -> it will send msg to the selected device phone number  to delete specified authorised phone number
-- SMS: ADD ADMIN#xxxxxxxxxx# -> it will send msg to the selected device phone  to Add admins by master admin only > up to 4 admins
-- SMS: DEL ADMIN#xxxxxxxxxx# -> it will send msg to the selected  device phone number to delete specified Admin phone number by master admin
 
-# Call Log Permissions
- READ_CONTACTS: This permission is used to help users add members easily by selecting from their contacts and to communicate effectively with the elevator system.
- - Call the device: It will make call to the device phone you are selected
+SMS: SINQ# -> Check status: Sends a message to the selected device phone number to get the device status.
+SMS: ENFO# -> Open always: Sends a message to the selected device phone number to open the relay always.
+SMS: NOFO# -> Open just when connected: Sends a message to the selected device phone number to close the relay until calling from an authorized number.
+SMS: RCT#xx# -> Sets the relay close time after calling.
+SMS: ADD#xxxxxxxxxx# -> Adds authorized phone numbers, allowing up to 15 numbers in one SMS message.
+SMS: DEL#xxxxxxxxxx# -> Deletes a specified authorized phone number.
+SMS: ADD ADMIN#xxxxxxxxxx# -> Adds admins by the master admin, up to 4 admins.
+SMS: DEL ADMIN#xxxxxxxxxx# -> Deletes a specified admin phone number by the master admin.
 
-we will request your permission before using the SMS functionality. If you reject the SMS permission, you will still be able to use some basic features of the TLGO app. However, functionalities that rely on SMS communication with the elevator, such as password reset, adding new devices, controlling the elevator door, and adding users and admins, will be unavailable.
+* Call Log Permissions
+READ_CONTACTS: This permission is used to help users add members easily by selecting from their contacts and to communicate effectively with the elevator system.
+
+Call the device: It will make a call to the device phone you have selected.
+We will request your permission before using the SMS functionality. If you reject the SMS permission, you will still be able to use some basic features of the TLGO app. However, functionalities that rely on SMS communication with the elevator, such as password reset, adding new devices, controlling the elevator door, and adding users and admins, will be unavailable.
 
 ### Cookies  
 Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your devices’s internal memory.  
@@ -44,7 +46,7 @@ This Services does not uses these “cookies” explicitly. However, the app may
 Some of the services may use location information transmitted from users' mobile phones. We only use this information within the scope necessary for the designated service. 
 
 ### Device Information  
-We collect information from your device in some cases. The information will be utilized for the provision of better service and to prevent fraudulent acts. Additionally, such information will not include that which will identify the individual user.  
+We collect information from your device in some cases. The information will be utilized for the provision of better service and to prevent fraudulent acts. Additionally, such information will not include data that will identify the individual user. 
 
 ### Service Providers  
 We may employ third-party companies and individuals due to the following reasons:  
