@@ -1,6 +1,6 @@
 Privacy Policy  
 ----------------
-
+Last updated: June 27, 2024
 ### Introduction  
 Our privacy policy will help you understand what information we collect at Technolab/TLGO, how Technolab/TLGO uses it, and what choices you have.
 TLGO was developed as a service provided by Technolab Company that enables elevator control via mobile phones.
