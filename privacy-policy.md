@@ -23,9 +23,6 @@ Our app requests certain permissions to provide core functionalities, including 
 * RECEIVE_SMS: This permission allows the app to receive SMS messages for verification and communication with the elevator.
 * READ_SMS: This permission enables the app to read incoming SMS messages to auto-detect and process instructions sent to the elevator.
 
-# Call Log Permissions
-* READ_CONTACTS: This permission is used to help users add members easily by selecting from their contacts and to communicate effectively with the elevator system.
-These permissions are crucial for providing a secure and integrated user experience.
 
 ### Cookies  
 Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your devices’s internal memory.  
