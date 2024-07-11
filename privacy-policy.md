@@ -1,6 +1,6 @@
 Privacy Policy  
 ----------------
-Last updated: July 9, 2024
+
 ### Introduction  
 Our privacy policy will help you understand what information we collect at Technolab/TLGO, how Technolab/TLGO uses it, and what choices you have.
 Technolab/TLGO built the TLGO app as a free app. This SERVICE is provided by Technolab/TLGO at no cost and is intended for use as is.
@@ -13,13 +13,15 @@ The app does use third-party services that may collect information used to ident
 
 ### Features:
 * Password reset via SMS: To help users reset their passwords securely.
-* Send instructions to the elevator via SMS: For controlling and managing the elevator system.
+* Send and receive instructions to the elevator via SMS: For controlling and managing the elevator system.
 * Easily add members using contacts: To facilitate the addition of members to the app and communicate with the elevator.
 
 ### Permissions Requested and Their Use
 Our app requests certain permissions to provide core functionalities, including but not limited to:
 # SMS Permissions
 * SEND_SMS: This permission is required to send instructions to the elevator and to reset passwords via SMS.
+* RECEIVE_SMS: This permission allows the app to receive SMS messages for verification and communication with the elevator.
+* READ_SMS: This permission enables the app to read incoming SMS messages to auto-detect and process instructions sent to the elevator.
 
 # Call Log Permissions
 * READ_CONTACTS: This permission is used to help users add members easily by selecting from their contacts and to communicate effectively with the elevator system.
